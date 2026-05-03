@@ -2,10 +2,10 @@ services:
   mirofish:
     image: mirofish
     build:
-      context: .
-      dockerfile: ./Dockerfile
+      context: 
+      dockerfile:
     environment:
-      NODE_ENV: development
+      NODE_ENV: 
     ports:
-      - 3000:3000
-      - 5001:5001
+      - 3000
+      - 5001
