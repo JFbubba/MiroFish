@@ -27,3 +27,4 @@ EXPOSE 3000 5001
 
 # Command to run both concurrently
 CMD ["npm", "run", "dev"]
+
